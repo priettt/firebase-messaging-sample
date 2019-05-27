@@ -1,3 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Android template
 # Built application files
 *.apk
 *.ap_
@@ -13,9 +15,15 @@ bin/
 gen/
 out/
 
+# Make files
+*.mk
+
 # Gradle files
 .gradle/
+gradlew.bat
+gradlew
 build/
+gradle.properties
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -32,19 +40,21 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ
+# Intellij
+*.iws
 *.iml
+.idea/
+.idea/misc.xml
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
-.idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
+.idea/assetWizardSettings.xml
 .idea/caches
 
 # Keystore files
-# Uncomment the following line if you do not want to check your keystore files in.
-#*.jks
+*.jks
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
@@ -57,9 +67,5 @@ freeline.py
 freeline/
 freeline_project_description.json
 
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
+# OS
+.DS_Store
