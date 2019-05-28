@@ -65,3 +65,6 @@ freeline_project_description.json
 
 # OS
 .DS_Store
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
